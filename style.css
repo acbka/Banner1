@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 300px;
+    height: 250px;
+    owerflow: hidden;
+    position: relative;
+}
+.fix{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.by_el{
+    z-index: 5;
+}
+.silhouette{
+    top: 8px;
+}
+.dialog{
+    left: -6px;
+}
+#replay{
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+}
